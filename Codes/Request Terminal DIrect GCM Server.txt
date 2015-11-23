@@ -1,0 +1,4 @@
+curl --header "Authorization: key=AIzaSyD6ktqBEKOqAp4jvYV8r9eth6hhP0KaQE4" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\" APA91bFd_1bKqNMw1ZOUm40CdqibkHaSfg5FX5DU0orQ-xCSy35NowOviylkEA2WENpSe6ZZQNgsFGA7qfPW4AGDMK14AxjMbgS7wImOqwQiT1qvIjSewH-zGqXmG9n2J2i2HpBOXnIVV3mDXmAULQFv3WMJkOdSeg \"]}"
+
+
+curl --header "Authorization: key=AIzaSyD6ktqBEKOqAp4jvYV8r9eth6hhP0KaQE4" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\" APA91bF4l4XEDbN6ywIYA9aEPxS_V2JY4f_LNPMEUsqF1JMDVC4vawTHFKxI-XHRCU6aifpnjSXZD6aA7OY7rLkH4Ml9apc8kEgkUZ-bVaKrMRA8ZfHsw3QDBLGKiJs9mLZW9EKqAeFaE6ieUnuCU114lAh6Ys25HA \"], \"data\":{\"name\":\"Satvik\"}}"

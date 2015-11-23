@@ -1,0 +1,15 @@
+<message id="">
+  <gcm xmlns="google:mobile:data">
+  {
+      "to":"REGISTRATION_ID",  // "to" replaces "registration_ids"
+      "message_id":"m-1366082849205" // new required field
+      "data":
+      {
+          "hello":"world",
+      }
+      "time_to_live":"600",
+      "delay_while_idle": true/false,
+      "delivery_receipt_requested": true/false
+  }
+  </gcm>
+</message>
